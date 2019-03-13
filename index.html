@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>登录页面</title>
+		<meta http-equiv=“Content-Type” content=“text/html; charset=utf-8″ />
+		<script type="text/javascript" src="js/zui.min.js"></script>
+		<link rel="stylesheet" href="css/zui.min.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+
+		<style>
+			/*html,body{
+    width:100%;
+    
+               }*/
+			
+			body {
+				margin: 0;
+				padding: 0;
+				background: url(img/4.png)no-repeat;
+				background-size: 100%;
+				width: 100%;
+			}
+			
+			h1,
+			h2 {
+				color: white;
+				opacity: 0.8;
+				font: "黑体";
+				align-items: center;
+			}
+			
+			ul,
+			ol {
+				list-style: none;
+			}
+			
+			div,
+			p,
+			h3,
+			ul,
+			li,
+			input {
+				padding: 0;
+				margin: 0;
+			}
+			
+			.father {
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				/*background-color: rgba(0, 0, 0, .7);*/
+			}
+			
+			.son {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 55%;
+				height: 70%;
+				margin: auto;
+			}
+			
+			#left {
+				width: 55%;
+				float: left;
+				height: 100%;
+			}
+			
+			#main {
+				width: 15%;
+				float: left;
+				height: 100%;
+			}
+			
+			#right {
+				width: 30%;
+				float: left;
+				background-image: url(img/10.png);
+				background-size: 100% 100%;
+				margin-top: 10%;
+				padding-bottom: 5%;
+			}
+			
+			button,
+			input,
+			select,
+			textarea {
+				outline: none;
+			}
+			
+			.inner ul li {
+				margin-bottom: 10px;
+			}
+			
+			.inner {
+				width: 100%;
+				padding: 15px;
+			}
+			
+			.inner div.input-wrap {
+				background-color: white;
+				position: relative;
+				padding: 5px 6px 5px 34px;
+				margin-bottom: 15px;
+				border: solid 1px #CCC;
+				border-radius: 5px;
+			}
+			
+			.inner div.input-wrap span {
+				position: absolute;
+				left: 10px;
+				font-size: 20px;
+				/*margin-left: 10px;
+				margin-right: 10px;*/
+			}
+			
+			.inner div input {
+				width: 100%;
+				/*line-height: 15px;*/
+				font-size: 14px;
+				border-width: 0;
+			}
+			
+			.btn {
+				text-align: center;
+				display: block;
+				width: 100%;
+				margin: 0 auto;
+				/*width: 94%; */
+				color: white;
+				font-family: '黑体';
+				margin-right: 10px;
+				border-color: #16a8fb;
+				background-color: #16a8fb;
+				text-shadow: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="father">
+			<div class="son">
+				<h1 align="center">海颐云商交易平台</h1>
+				<div id="left">
+					<img src="img/3.png" />
+				</div>
+				<div id="main">
+				</div>
+				<div id="right">
+					<div style="float: left;margin-left: 30px;margin-top: 10px;"><img src="img/5.png"></div>
+					<div class="tc" style="float: left;color: white;font-size: 18px;margin-left: 10px;margin-top: 30px;">用户登录</div>
+					<div style=" clear: both;">
+
+					</div>
+					<!--</div>-->
+					<div class="inner">
+						<ul>
+							<li>
+								<div class="input-wrap">
+									<span class="iconfont icon-my">
+                    	
+                    </span>
+									<div class="input-inner">
+										<input name="account" type="text" id="account" />
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="input-wrap">
+									<span class="iconfont icon-suo"></span>
+									<div class="input-inner">
+										<input name="password" type="password" id="password" />
+									</div>
+								</div>
+							</li>
+						</ul>
+						<span class="btn">登陆</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
